@@ -5,3 +5,15 @@ https://stackoverflow.com/questions/44132652/keras-how-to-perform-a-prediction-u
 https://github.com/aa-gamJain/Regression-with-Keras-Deep-Learning-Library-in-Python/blob/master/Regression%20Tutorial%20with%20the%20Keras%20Deep%20Learning%20Library%20in%20Python.ipynb
 
 https://machinelearningmastery.com/evaluate-performance-deep-learning-models-keras/
+
+#optimizers
+Adam is different to classical stochastic gradient descent.
+Stochastic gradient descent maintains a single learning rate (termed alpha) for all weight updates 
+  and the learning rate does not change during training.
+  
+# How to decrease validation_loss: the problem of overfitting
+-Data Preprocessing: Standardizing and Normalizing the data.
+-Model compelxity: Check if the model is too complex. Add dropout, reduce number of layers or number of neurons in each layer.
+-Learning Rate and Decay Rate: Reduce the learning rate, 
+  a good starting value is usually between 0.0005 to 0.001. Also consider a decay rate of 1e-6.
+
