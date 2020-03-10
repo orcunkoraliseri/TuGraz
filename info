@@ -17,3 +17,5 @@ Stochastic gradient descent maintains a single learning rate (termed alpha) for 
 -Learning Rate and Decay Rate: Reduce the learning rate, 
   a good starting value is usually between 0.0005 to 0.001. Also consider a decay rate of 1e-6.
 
+#Normalize & Unnormalize
+https://martinfournier.com/how-to-normalize-and-denormalize-data-between-0-and-1/
