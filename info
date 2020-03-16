@@ -16,6 +16,8 @@ Stochastic gradient descent maintains a single learning rate (termed alpha) for 
 -Model compelxity: Check if the model is too complex. Add dropout, reduce number of layers or number of neurons in each layer.
 -Learning Rate and Decay Rate: Reduce the learning rate, 
   a good starting value is usually between 0.0005 to 0.001. Also consider a decay rate of 1e-6.
+- Random initialization for weights
+https://towardsdatascience.com/hyper-parameters-in-action-part-ii-weight-initializers-35aee1a28404
 
 #overfitting
 https://keras.rstudio.com/articles/tutorial_overfit_underfit.html
